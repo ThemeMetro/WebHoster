@@ -1,0 +1,2132 @@
+Version - 3.0.8 - Released date 2nd Oct, 2020
+============================================================================
+Upgraded for WHMCS 8.0 stable release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+(.tpl files)
+============================
+all files and folders need to be replaced except header and footer tpl and all additional pages tpl files which are given below.
+
+about_us.tpl
+homepage.tpl
+web_hosting.tpl
+web_hosting windows.tpl
+reseller_hosting.tpl
+vps_hosting.tpl
+dedicated_servers.tpl
+
+
+
+Order forms changed
+============================
+All files and folders
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 3.0.7 - Released date 8th April, 2020
+============================================================================
+Upgraded for WHMCS 7.10.0 release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+/assets/js/*
+/includes/verifyemail.tpl
+/includes/sidebar.tpl
+/payment/*
+/store/*
+clientareacontacts.tpl
+clientareadetails.tpl
+upgrade-configure.tpl
+
+
+
+Order forms changed
+============================
+All files and folders
+
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 3.0.6 - Released date 21st Feb, 2020
+============================================================================
+Upgraded for WHMCS 7.9.2 release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+account-paymentmethods.tpl
+/payment/*
+/store/order.tpl
+
+
+
+
+Order forms changed
+============================
+/js/*
+
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+Version - 3.0.5 - Released date 10th Jan, 2020
+============================================================================
+Upgraded for WHMCS 7.9.0 release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+account-paymentmethods-manage.tpl
+account-paymentmethods.tpl
+clientareaproductdetails.tpl
+creditcard.tpl
+footer.tpl
+includes/captcha.tpl
+includes/generate-password.tpl
+includes/sidebar.tpl
+/store/*
+
+
+/assets/js/scripts.js
+/assets/js/scripts.min.js
+
+/assets/css/whmcs.min.css
+/assets/css/invoice.css
+
+New Files added in 7.9
+==============================
+clientareaproductusagebilling.tpl
+invoice-payment.tpl
+usagebillingpricing.tpl
+oauth/css/index.php
+/payment/*
+
+
+
+
+Order forms changed
+============================
+all files and folders
+
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+Version - 3.0.4 - Released date 25th September, 2019
+============================================================================
+Upgraded for WHMCS 7.8.3 release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+includes/captcha.tpl
+creditcard.tpl
+
+/assets/js/scripts.js
+/assets/js/scripts.min.js
+
+
+
+Order forms changed
+============================
+/css/all.css
+css/all.min.css
+/js/scripts.js
+/js/scripts.min.js
+
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 3.0.3 - Released date 6th September, 2019
+============================================================================
+Upgraded for WHMCS 7.8.2 release
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+password-reset-container.tpl
+password-reset-security-prompt.tpl
+
+/assets/js/scripts.js
+/assets/js/scripts.min.js
+
+
+
+Order forms changed
+============================
+/js/scripts.js
+/js/scripts.min.js
+checkout.tpl
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+Version - 3.0.2 - Maintenace Released date 30th August, 2019
+============================================================================
+Upgraded for WHMCS 7.8
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(changed files)
+========================================================
+========================================================
+
+footer.tpl
+
+To see the changes between old footer.tpl and new footer.tpl files OR any other tpl files you may use below website. 
+https://www.diffchecker.com/
+
+============================
+all files and folders need to be replaced tpl files which are given below.
+
+affiliates.tpl
+clientareadetails.tpl
+clientareadomains.tpl
+clientareaemails.tpl
+clientareainvoices.tpl
+clientareaproducts.tpl
+clientareaquotes.tpl
+supportticketslist.tpl
+clientareaaddcontact.tpl
+clientareachangepw.tpl 
+clientareacontacts.tpl
+clientareadomaindetails.tpl
+clientareaproductdetails.tpl
+clientareasecurity.tpl
+clientregister.tpl
+invoicepdf.tpl
+login.tpl
+masspay.tpl
+viewannouncement.tpl
+viewinvoice.tpl
+viewticket.tpl
+
+/includes/tablelist.tpl
+
+/store/*
+/oauth/login.tpl
+
+New Files added in 7.8
+==============================
+
+includes/generate-password.tpl
+
+account-paymentmethods-billing-contacts.tpl
+account-paymentmethods-manage.tpl
+account-paymentmethods.tpl
+password-reset-change-prompt.tpl
+password-reset-container.tpl
+password-reset-email-prompt.tpl
+password-reset-security-prompt.tpl
+
+
+/assets/css/blue.png
+/assets/css/blue@2x.png
+
+
+(Other files)
+============================
+/assets/css/whmcs.min.css
+/assets/css/invoice.css
+
+
+Order forms changed
+============================
+All files and folders
+
+
+
+
+============================
+To see the changes between old and new files OR any other tpl files you may use below website. 
+https://www.diffchecker.com/
+
+
+
+
+Please Note:
+after update you must required to clear template caches and browser cookies then hard refresh your browser. 
+
+========================================================
+
+
+If you want this upgrade to be done by our professional team, you may buy our professional upgrade services in just $49 one time by using below link
+https://thememetro.com/cart.php?gid=2
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 3.0.1 - Maintenace Released date 10h Jun, 2019
+============================================================================
+Upgraded for WHMCS 7.7.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+(.tpl files)
+============================
+all files and folders need to be replaced except additional pages tpl files which are given below.
+
+affiliates.tpl
+clientareaaddfunds.tpl
+clientareaproductdetails.tpl
+clientareadomaindetails.tpl
+clientareasecurity.tpl
+clientregister.tpl
+clientareahome.tpl
+login.tpl
+logout.tpl
+clientareadomains.tpl
+clientareaproducts.tpl
+supportticketslist.tpl
+clientareainvoices.tpl
+clientareaquotes.tpl
+viewinvoice.tpl
+viewquote.tpl
+
+/includes/sidebar.tpl
+/includes/tablelist.tpl
+
+
+(Other files)
+============================
+/assets/css/themes/style.css
+/assets/css/whmcs.min.css
+/assets/js/plugins/slimscroll/*
+
+
+if do not want replace style.css then simply add below code in custom.css
+
+body {
+	background-color: #fff;
+}
+
+============================
+To see the changes between old and new files OR any other tpl files you may use below website. 
+https://www.diffchecker.com/
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+If you want this upgrade to be done by our professional team, you may buy our professional upgrade services in just $49 one time by using below link
+https://thememetro.com/cart.php?gid=2
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+Version - 3.0 - Released date 30h Jan, 2019
+============================================================================
+Upgraded for WHMCS 7.7.0 release 1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version please read following:  
+
+
+(Replaced all below files)
+========================================================
+========================================================
+
+(.tpl files)
+============================
+all files and folders need to be replaced except additional pages tpl files which are given below.
+
+about_us.tpl
+homepage.tpl
+web_hosting.tpl
+web_hosting windows.tpl
+reseller_hosting.tpl
+vps_hosting.tpl
+dedicated_servers.tpl
+
+
+(.php files)
+============================
+Need to replace all php files for additional pages along with provided navigation hooks.
+
+
+Order forms changed
+============================
+All files and folders
+
+
+
+============================
+To see the changes between old and new files OR any other tpl files you may use below website. 
+https://www.diffchecker.com/
+
+
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+
+If you want this upgrade to be done by our professional team, you may buy our professional upgrade services in just $49 one time by using below link
+https://thememetro.com/cart.php?gid=2
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.7 - Released date 24h Jan, 2019
+============================================================================
+Upgraded for WHMCS 7.7.0 release 1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.6) please read following:  
+
+
+(Replaced all below files)
+========================================================
+
+(.tpl files)
+============================
+clientareaaddcontact.tpl
+clientareacontacts.tpl
+clientareacreditcard.tpl
+clientareadetails.tpl
+clientareadomaindetails.tpl
+clientareadomains.tpl
+clientareahome.tpl
+clientareaproductdetails.tpl
+clientareaproducts.tpl
+clientregister.tpl
+contact.tpl
+
+includes/captcha.tpl
+includes/head.tpl
+
+invoicepdf.tpl
+supportticketsubmit-steptwo.tpl
+upgrade-configure.tpl
+viewinvoice.tpl
+
+
+store/codeguard/index.tpl
+store/css/style.css
+store/weebly/upgrade.tpl
+
+
+
+assets/js/scripts.js
+assets/js/scripts.min.js
+assets/js/whmcs.js
+
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+Order forms changed -
+============================
+checkout.tpl
+domainregister.tpl
+domaintransfer.tpl
+marketconnect-promo.tpl
+
+js/base.js
+js/scripts.js
+js/scripts.min.js
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+Version - 2.2.6 - Released date 29h Aug, 2018
+============================================================================
+Upgraded for WHMCS 7.6.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.5) please read following:  
+
+
+(Replaced all below files)
+========================================================
+
+(.tpl files)
+============================
+clientareacreditcard.tpl
+knowledgebase.tpl
+knowledgebasearticle.tpl
+knowledgebasecat.tpl
+twitterfeed.tpl
+
+
+
+Order forms changed -
+============================
+css/all.css
+css/all.min.css
+checkout.tpl
+fraudcheck.tpl
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.5 - Released date 4h Aug, 2018
+============================================================================
+Upgraded for WHMCS 7.6.0
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.4) please read following:  
+
+
+(Replaced all below files)
+========================================================
+
+(CSS files)
+============================
+assets/css/themes/*
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+New Files
+------------------
+assets/css/fontawsome.css
+assets/css/fontawsome.min.css
+
+New Folder
+------------------
+assets/webfonts/
+
+(.js files)
+============================
+assets/js/scripts.js
+assets/js/scripts.min.js
+assets/js/twitter.min.js
+
+(.tpl files)
+============================
+Since WHMCS upgraded Font Awesome icon version from 4.x to 5.x, All tpl files should be replaced.
+
+Please use following below website to find out the difference between old and new tpl files.
+https://www.diffchecker.com/
+
+In additional pages, header and footer .tpl files only Font Awesome icons are changed.
+If you find any icon missing in your current custumized pages just simply visit below link and change icon as per Font Awesome new icon.
+https://fontawesome.com/icons
+
+
+(.php files)
+============================
+{WHMCS Root}/includes/hooks/NavbarLinks.php
+
+
+Order forms changed -
+============================
+All files and folders
+
+
+Please Note:
+after update you must required to clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also. 
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.4 - Released date 19th April, 2017
+============================================================================
+Upgraded for WHMCS 7.5.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.3) please read following below:  
+
+
+(Replaced all below files)
+========================================================
+assets/js/scripts.js
+assets/js/scripts.min.js
+
+
+Order forms changed -
+================================
+common.tpl
+domain-renewals.tpl
+js/base.js
+js/scripts.js
+js/scripts.min.js
+
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.3 - Released date 4th April, 2017
+============================================================================
+Upgraded for WHMCS 7.5.0
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.2) please read following below:  
+
+
+(Replaced all below files)
+========================================================
+announcements.tpl
+clientareadetails.tpl
+clientareadomaindetails.tpl
+clientareadomains.tpl
+clientregister.tpl
+knowledgebase.tpl
+knowledgebasearticle.tpl
+knowledgebasecat.tpl
+viewannouncement.tpl
+
+includes/head.tpl
+includes/tablelist.tpl
+
+store/*
+
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+assets/js/scripts.js
+assets/js/scripts.min.js
+
+New File added
+================================
+domain-pricing.tpl 
+subscription-manage.tpl
+upgrade-configure.tpl
+
+If any error comes in additional pages, replace all php files also
+==================================
+about_us.php
+web_hosting.php
+web_hosting_windows.php
+reseller_hosting.php
+vps_hosting.php
+dedicated_servers.php
+------------------------
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/*
+
+
+
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.2 - Released date 10th January, 2018
+============================================================================
+Upgraded for WHMCS 7.4.2
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.1) please read following below:  
+
+
+Template file changed -
+========================================================
+
+(Replaced all below files)
+================================
+assets/js/scripts.js
+assets/js/scripts.min.js
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/js/*
+/webhoster-default/checkout.tpl
+
+
+
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.1 - Released date 16th November, 2017
+============================================================================
+Upgraded for WHMCS 7.4.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.2.0) please read following below:  
+
+
+Template file changed -
+========================================================
+Edit header.tpl - line number 33 (added data-phone-cc-input="{$phoneNumberInputStyle}" in body tag)
+
+(Replaced all below files)
+================================
+creditcard.tpl
+knowledgebase.tpl
+
+store/*
+oauth/*
+
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+assets/js/scripts.js
+assets/js/scripts.min.js
+assets/js/whmcs.js
+
+New Imgaes added
+================================
+assets/img/flags.png
+assets/img/flags@2x.png
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/js/*
+/webhoster-default/css/*
+/webhoster-default/checkout.tpl
+/webhoster-default/domainregister.tpl
+
+
+New file added (optional)
+--------------------
+index.php (in all sub directories in template and order form.)
+
+
+
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.2.0 - Released date 5th October, 2017
+============================================================================
+Upgraded for WHMCS 7.3.0
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.1.9) please read following below:  
+
+
+Template file changed -
+========================================================
+
+(Replaced all below files)
+================================
+clientareaaddcontact.tpl
+clientareacontacts.tpl
+clientareacreditcard.tpl
+clientareasecurity.tpl
+clientregister.tpl
+knowledgebasearticle.tpl
+login.tpl
+twitterfeed.tpl
+viewinvoice.tpl
+
+includes/captcha.tpl
+includes/verifyemail.tpl
+
+error/page-not-found.tpl
+
+store/spamexperts/index.tpl
+store/ssl/dv.tpl
+store/ssl/ev.tpl
+store/ssl/index.tpl
+store/ssl/ov.tpl
+store/ssl/wildcard.tpl
+store/weebly/index.tpl
+store/weebly/upgrade.tpl
+
+New file added
+--------------------
+includes/linkedaccounts.tpl
+
+
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+assets/css/invoice.css
+
+assets/js/scripts.js
+assets/js/scripts.min.js
+assets/js/whmcs.js
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/js/*
+/webhoster--default/css/*
+/webhoster--default/viewcart.tpl
+/webhoster-default/checkout.tpl
+
+New file added
+--------------------
+/webhoster-default/linkedaccounts.tpl
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.9 - Released date 19th July, 2017
+============================================================================
+Upgraded for WHMCS 7.2.3
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.1.8) please read following below:  
+
+
+Template file changed -
+========================================================
+
+No Changes
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/js/*
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.8 - Released date 1st June, 2017
+============================================================================
+Upgraded for WHMCS 7.2.2
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.1.7) please read following below:  
+
+
+Template file changed -
+========================================================
+
+(Replaced all below files)
+================================
+
+invoicepdf.tpl
+error/internal-error.tpl
+store/css/style.css
+store/spamexperts/index.tpl
+store/ssl/index.tpl
+store/ssl/shared/certificate-pricing.tpl
+store/ssl/shared/nav.tpl
+store/weebly/index.tpl
+
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+
+(Edit all below files)
+================================
+header.tpl (webhoster & webhoster-rtl and line 112 webhoster2 & webhoster2-rtlline 124)
+
+
+We would like to recommend use below website to see difference between new and old files.
+https://www.diffchecker.com/
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+/webhoster-default/domainregister.tpl
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.7 - Released date 19th May, 2017
+============================================================================
+Upgraded for WHMCS 7.2.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of webhoster (2.1.6) please read following below:  
+
+
+Template file changed -
+========================================================
+
+(Replaced all below files)
+================================
+announcements.tpl
+clientareaaddcontact.tpl
+clientareachangepw.tpl
+clientareacontacts.tpl
+clientareaproductdetails.tpl
+downloads.tpl
+downloadscat.tpl
+supportticketslist.tpl
+viewannouncement.tpl
+viewinvoice.tpl
+knowledgebase.tpl
+knowledgebasearticle.tpl
+knowledgebasecat.tpl
+login.tpl
+
+assets/css/themes/*
+assets/css/whmcs.css
+assets/css/whmcs.min.css
+
+assets/js/scripts.js
+assets/js/scripts.min.js
+assets/js/twitter.js
+assets/js/whmcs.js
+
+includes/head.tpl
+includes/navbar.tpl
+includes/sidebar.tpl
+includes/tablelist.tpl
+
+(Edit all below files)
+================================
+header.tpl (5 new lines added)
+
+/includes/hooks/NavbarLinks.php
+To remove "Store" menu item added line number 17 
+
+
+We would like to recommend use below website to see difference between new and old files.
+https://www.diffchecker.com/ 
+
+
+(Add new files and folder)
+================================
+managessl.tpl
+store/*
+error/*
+
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+webhoster-default/*
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history, cookies and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.6 - Released date 4th January, 2017
+============================================================================
+In this release Strip Payment gateway issue has been fixed and some css improvement.
+No any template changes in this release just replace webhoster-default order form.  
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.1.5) please read following below:
+
+Template file changed -
+========================================================
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+webhoster-default/*
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history and caches also.
+
+========================================================
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.5 - Released date 15th December, 2016
+============================================================================
+upgraded for WHMCS 7.1 
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of webhoster (2.1.4) please read following below:
+
+Template file changed -
+========================================================
+
+Edit two files given below -
+===========================
+footer.tpl
+
+Remove below listed codes OR lines in footer.tpl:
+
+<script src="{$WEB_ROOT}/templates/{$template}/assets/js/bootstrap.min.js"></script>
+
+var csrfToken = '{$token}',
+markdownGuide = '{lang key="markdown.title"}',
+locale = '{if !empty($mdeLocale)}{lang key="locale"}{else}en_GB{/if}',
+saved = '{lang key="markdown.saved"}',
+saving = '{lang key="markdown.saving"}';
+
+
+<script src="{$WEB_ROOT}/templates/{$template}/assets/js/whmcs.js"></script>
+<script src="{$BASE_PATH_JS}/AjaxModal.js"></script>
+
+
+
+Replace all the files & folders given below - 
+===========================
+
+/templates/clouder/assets/css/*
+(no changes in /assets/css/themes/* and /assets/css/custom.css , don't replace this file if  any modification are made by you.)
+
+/templates/clouder/assets/js/*
+
+
+affiliates.tpl
+clientareacreditcard.tpl
+clientareainvoices.tpl
+clientareaproducts.tpl
+creditcard.tpl
+quotepdf.tpl
+
+includes/sidebar.tpl
+includes/tablelist.tpl
+includes/head.tpl
+
+oauth/layout.tpl
+
+
+Order forms changed -
+(replaced all files and folders)
+================================
+webhoster-default/*
+
+================================
+
+Please Note:
+after update you must required clear template caches and hard refresh your browser,
+Its better if you clear your browser history and caches also.
+
+
+
+
+
+
+
+
+Version - 2.1.4 - Released date 15th October, 2016
+============================================================================
+In this release -
+upgraded for WHMCS 7.0.1 and improved webhoster-default order form for better layout and fixed some bugs. 
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.1.3) please read following below:
+
+Template file changed -
+========================================================
+
+Replace all the files & folders given below - 
+===========================
+clientareadomains.tpl
+includes/tablelist.tpl
+
+Order forms changed -
+(replaced all files and folders)
+================================
+webhoster-default/*
+
+================================
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.3 - Released date 4th October, 2016 
+============================================================================
+Maintenance Release - upgraded for WHMCS 7.0.0 release 1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of (2.1.2) please read following below:
+
+Template file changed -
+========================================================
+
+Edit two files given below -
+===========================
+footer.tpl - Removed line 220
+/includes/head.tpl - Removed Lines 38 & 39
+
+Replace all the files & folders given below - 
+===========================
+affiliates.tpl
+clientareadomaindetails.tpl
+clientareadomains.tpl
+clientareaproductdetails.tpl
+contact.tpl
+creditcard.tpl
+includes/captcha.tpl
+includes/pwstrength.tpl
+includes/tablelist.tpl
+invoicepdf.tpl
+upgradesummary.tpl
+
+CSS changed -
+================================
+templates/clouder/assets/css/whmcs.css
+
+
+JS changed -
+================================
+templates/clouder/assets/js/whmcs.js
+
+
+Order forms changed -
+================================
+webhoster-default/*
+
+================================
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1.2 - Released date 3rd August, 2016 
+============================================================================
+Maintenance Release
+
+1.) Knowledgebase search bug from top navbar
+2.) Google reCAPTCHA is not showing in mobile devices for domain search in domain checker page.
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of (2.1.1) please read following below:
+
+Template file changed -
+========================================================
+
+Edit the file given below
+===========================
+WebHoster2 and WebHoster2-RTL -
+
+header.tpl - line 156
+
+Replace all the files & folders given below - 
+===========================
+domainchecker.tpl
+
+CSS changed -
+================================
+/assets/css/whmcs.css
+
+
+JS changed -
+================================
+No Changes
+
+========================================================
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+Version - 2.1.1 - Released date 14th April, 2016 
+============================================================================
+Upgraded for WHMCS 6.3.1
+
+We have fixed some navbar issues in mobile devices.
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of (2.1) please read following below:
+
+Template file changed - (Recommended for 6.3.1)
+========================================================
+Replace all the files & folders given below - 
+===========================
+
+ticketfeedback.tpl
+
+oauth/authorize.tpl
+oauth/layout.tpl
+
+JS changed -
+================================
+/assets/js/whmcs.js
+
+Edit the file given below (Optional but recommended) -
+===========================
+header.tpl
+
+webhoster - lines 129 and 134-136
+webhoster2 lines 54 and 75
+webhoster-rtl - lines 129 and 134-136 
+webhoster2-rtl - lines 54 and 75
+
+
+CSS changed - (Optional but recommended)
+================================
+/assets/css/themes/*
+
+(If you requested custom color scheme before, please respond on same ticket, we shall provide you again.)
+
+========================================================
+
+We have also added an additional hook to give better look of secondary navbar on mobile devices.
+includes/hooks/TMSecondaryNavbar.php
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.1 - Released date 31st March, 2016 
+============================================================================
+Upgraded for WHMCS 6.3
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of (2.0.10) please read following below:
+
+Template file changed -
+================================
+
+Edit two files given below -
+===========================
+header.tpl (line 166) & in webhoster2 line 187  (same in RTL)
+footer.tpl 
+
+webhoster - lines 235-239 and 263-291
+webhoster2 lines 235-239 and 265-293
+webhoster-rtl - 235-239 and 289-317 
+webhoster2-rtl - 235-239 and 291-319
+
+Replace all the files & folders given below - 
+===========================
+affiliates.tpl
+announcements.tpl
+clientareaaddcontact.tpl
+clientareachangepw.tpl
+clientareacontacts.tpl
+clientareadomaindetails.tpl
+clientareaproductdetails.tpl
+clientareasecurity.tpl
+clientregister.tpl
+domainchecker.tpl
+knowledgebase.tpl
+login.tpl
+markdown-guide.tpl  (New File)
+pwresetvalidation.tpl
+supportticketsubmit-steptwo.tpl
+ticketfeedback.tpl
+upgradesummary.tpl
+viewticket.tpl
+
+
+includes/head.tpl  (lines 34-47)
+includes/verifyemail.tpl   (New File)
+
+oauth/* (all files)
+
+CSS changed -
+================================
+/assets/css/whmcs.css 
+
+JS changed -
+================================
+/assets/js/whmcs.js
+
+Order forms changed -
+================================
+webhoster-default/* 
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+Version - 2.0.10 - Released date 26th March, 2016 
+============================================================================
+In this released we have fixed some bugs and updated webhoster-default order form
+
+Template file changed -
+================================
+footer.tpl line 16 (added additional css style)
+
+Only Websoter2 and webhoster2-rtl
+-----
+header.tpl - lin 154 and 156 (bug fixed - Knowledgebase search not working)
+
+CSS changed -
+================================
+/assets/css/whmcs.css line 305 and in RTL line 302 (disabled margin-bottom for class .main-content)
+
+
+Order Forms -
+================================
+webhoster-default/*   (replaced all files and folders)
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.0.9 - Released date 10th December, 2015 
+============================================================================
+Upgraded for WHMCS 6.2
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.8) please replace all below listed files and folders.
+
+Template file changed -
+================================
+
+WebHoster & WebHoster-rtl
+header.tpl - line 46, 51 & 70
+WebHoster2 & webHoster2-rtl
+header.tpl - line 45, 50 & 83
+
+affiliates.tpl
+announcements.tpl
+clientareaaddcontact.tpl
+clientareacontacts.tpl
+clientareadomaincontactinfo.tpl
+clientareadomains.tpl
+clientareaemails.tpl
+clientareainvoices.tpl
+clientareaproductdetails.tpl
+clientareaproducts.tpl
+clientareaquotes.tpl
+clientareasecurity.tpl
+domainchecker-results.tpl
+invoicepdf.tpl
+knowledgebase.tpl
+knowledgebasecat.tpl
+login.tpl
+masspay.tpl
+supportticketslist.tpl
+supportticketsubmit-confirm.tpl
+viewannouncement.tpl
+viewinvoice.tpl
+
+includes/pwstrength.tpl
+includes/tablelist.tpl
+
+New Folder Added -
+================================
+/oauth/
+
+CSS changed -
+================================
+/assets/css/invoice.css
+
+JS changed -
+================================
+/assets/js/whmcs.js
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.0.8 - Released date 8th October, 2015 
+============================================================================
+Upgraded for WHMCS 6.1.1
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.7) please replace all below listed files.
+
+Template file changed -
+================================
+bulkdomainchecker.tpl
+domainchecker.tpl
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.0.7 - Released date 23rd September, 2015 
+============================================================================
+Upgraded for WHMCS 6.1.0
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.6) please find the process given below.
+
+Template file changed -
+================================ 
+To hide sidebar in cart section.
+header.tpl - lines 300 and 307  in webhoster2 - lines 322 and 329
+footer.tpl - line 16 also in RTL layouts - line 248 - 284 (fixed responsive issue in owl carousels)
+
+clientareaproductdetails.tpl
+clientareadomaindetails.tpl
+clientregister.tpl
+configuressl-stepone.tpl
+domainchecker-results.tpl
+pwreset.tpl
+serverstatus.tpl
+viewticket.tpl
+ 
+
+Optional //
+Added new folder /modules/ 
+To override cPanel module layout and added missing server information by WHMCS team.
+
+CSS changed -
+================================
+/assets/css/whmcs.css
+
+JS changed -
+================================
+/assets/js/domainchecker.js
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+Version - 2.0.6 - Released date 20th August, 2015  
+============================================================================
+In this release we have upgraded bootstrap version v3.3.2 to v3.3.4 to fix issue in custom modules. Also fixed some IE9, IE10 bugs.
+And upgrade it as per WHMCS version 6.0.2. 
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.5) please find the process given below.
+
+Template file changed -
+================================  
+clientareaaddcontact.tpl
+clientareadomaindetails.tpl
+clientareadomains.tpl
+clientareaproductdetails.tpl
+domainchecker-results.tpl
+twitterfeed.tpl
+
+includes/navbar.tpl
+includes/tablelist.tpl
+
+
+header.tpl - line 60 (webhoster, webhoster-rtl) and line 148 (webhoster2, webhoster2-rtl)
+
+homepage-tpl - line 321, 331, 341
+includes/head.tpl - line 20 and line 21 in RTL -- upgraded Font Awesome
+
+
+CSS changed -
+================================
+assets/css/themes/*.*
+assets/css/bootstrap.min.css
+
+For RTL only
+assets/css/bootstrap.rtl.min.css
+
+
+JS changed -
+================================
+assets/js/domainchecker.js
+assets/js/bootstrap.min.js
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+Version - 2.0.5 - Released date 8th August, 2015  
+============================================================================
+In this version we have added simple navigation menu for easy modification if you are unable to manage by hook
+also fixed order form images issue in new installation of whmcs 6.x.
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.4) please find the process given below.  
+
+
+
+Replace all files of Order Form -
+============================================
+templates/orderforms/webhoster-default/*.* 
+
+
+Optional - If you want to use Simple navigation menu like whmcs 5.x
+
+Added new template file 
+================================
+templates/webhoster/includes/simple-navbar.tpl
+
+
+To use this navigation menu you need to replace below line in header.tpl -
+line number should be in webhoster and webhoster-rtl 161 and webhoster2 and webhoster2-rtl 179
+
+From 
+{include file="$template/includes/navbar.tpl" navbar=$primaryNavbar}
+
+To
+{include file="$template/includes/simple-navbar.tpl"}
+
+Then edit new added file simple-navbar.tpl as per your choice.
+
+
+Please Note: If you are using RTL then please add new file
+templates/webhoster-rtl/*.*
+
+Same like another templates
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Version - 2.0.4 - Maintenance Released date 24th July, 2015  
+============================================================================
+In this release we have fixed bugs & some improvement in layouts.
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.3) please replace all below listed files.  
+
+
+Template file changed -
+================================
+templates/webhoster/clientareahome.tpl
+templates/webhoster/downloads.tpl
+templates/webhoster/downloadscat.tpl
+templates/webhoster/knowladgebase.tpl
+templates/webhoster/knowledgebasecat.tpl
+
+
+Please Note: If you are using RTL then please replace all files in 
+templates/webhoster-rtl/*.*
+
+Navbar Hook Changed (optional) - Switched Some menu Items for better layout  
+================================
+includes/hooks/NavbarLinks.php
+
+for more information about whmcs 6 client area navigation menu please visit http://docs.whmcs.com/Client_Area_Navigation_Menus_Cheatsheet
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+
+
+
+Version - 2.0.2 - Maintenance Released date 18th July, 2015  
+============================================================================
+In this release we have fixed registration page button issue which are always showing disabled.
+
+This is the recommended version for all new installs & upgrades from any earlier version.
+To update your current version of WebHoster (2.0.1) please replace all below listed files. 
+
+Template file changed -
+================================
+templates/webhoster/header.tpl  - line 305 has been changed 
+templates/webhoster/footer.tpl - replaced all lines just after <!-- basic scripts -->
+templates/webhoster/clientregister.tpl - in line 207 added additional class btn-lg to make submit button some large
+
+
+CSS changed -
+================================
+templates/webhoster/assets/css/whmcs.css
+
+Please Note: If you are using RTL then please replace all files in 
+
+templates/webhoster-rtl/*.*
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+Version - 2.0.1 - Maintenance Released date 16th July, 2015  
+============================================================================
+This is the recommended version for all new installs & upgrades from any earlier version. 
+To update your current version of WebHoster (2.0.0) please replace all below listed files. 
+
+templates/webhoster/affiliates.tpl
+templates/webhoster/clientareaemails.tpl
+templates/webhoster/clientareahome.tpl
+templates/webhoster/clientareaproductdetails.tpl
+templates/webhoster/clientareaproducts.tpl
+templates/webhoster/clientareaquotes.tpl
+templates/webhoster/clientareasecurity.tpl
+templates/webhoster/clientregister.tpl
+templates/webhoster/configuressl-stepone.tpl
+templates/webhoster/domainchecker.tpl
+templates/webhoster/knowledgebasearticle.tpl
+templates/webhoster/supportticketslist.tpl
+
+
+templates/webhoster/includes/captcha.tpl
+templates/webhoster/includes/head.tpl
+templates/webhoster/includes/pwstrength.tpl
+
+templates/webhoster/assets/css/whmcs.css
+
+Renamed from supportticketsubmit-customFields.tpl to supportticketsubmit-customfields.tpl
+
+Please Note: If you are using RTL then please replace all files in 
+
+templates/webhoster-rtl/*.*
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
+
+
+
+
+
+
+
+Version - 2.0.0 - Release date 14th July, 2015 
+============================================================================
+This is the recommended version for all new installs & upgrades from any earlier version.
+
+
+For upgrade please replace all files and folders except additional pages which there no changes required.
+Please add custom hook /includes/hooks/NavbarLinks.php in your whmcs root directory in same location. Its must required to arrange the dynamic menus. 
+
+Then you just need to edit contents in header.tpl and footer.tpl only.
+If you are using custom color scheme please open a support ticket we will provide you new fresh copy of style.css of desired color scheme.
+
+
+=====================================================
+Professional upgrade service also available in just $49, Our team will upgrade your template and help to ensure things go smoothly.
+
+Please note that the upgrade service when purchased is valid for one upgrade only.
+It does not entitle you to on-going upgrades and must be purchased each time an upgrade is required.
+
+
+
+Thank you very much!
+If you have any suggestion or feedback please contact us by ticket.
