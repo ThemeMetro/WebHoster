@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Tabs & Accordions  - WebHoster</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css">
+	
+	 <!-- Google Fonts CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	
+	 <!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+	<!-- PAGE LEVEL PLUGINS STYLES -->
+	<link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+	
+    <!-- Tc core CSS -->
+	<link id="whstyle" rel="stylesheet" href="assets/css/themes/style.css">
+	
+    <!-- Add custom CSS here -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<!-- End custom CSS here -->
+	
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+<body class="webhoster rtl">
+
+    <nav class="navbar top-navbar navbar-fixed-top" role="navigation">
+		
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars text-gray"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-dark.png" alt="logo" class="img-responsive">
+                </a>
+            </div>		
+            <!-- Top Menu Right-->
+			<div class="nav-top">
+				<ul class="nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-tasks"></i> <span class="badge up badge-danger">7</span>
+						</a>
+						<ul class="dropdown-menu dropdown-scroll dropdown-tasks auto">
+							<li class="dropdown-header">
+								<i class="fa fa-tasks"></i> 10 Pending Tasks
+							</li>
+							<li id="taskScroll">
+								<ul class="list-unstyled">
+									<li>
+										<a href="#">
+											<p>
+												Purchase Order #439 <span class="pull-right"><strong>52%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100" style="width: 52%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												March Content Update <span class="pull-right"><strong>14%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100" style="width: 14%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Client #42 Data Scrubbing <span class="pull-right"><strong>68%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												PHP Upgrade Server #6 <span class="pull-right"><strong>85%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Malware Scan <span class="pull-right"><strong>66%</strong></span>
+											</p>
+											<div class="progress progress-striped active">
+												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;"></div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown-footer">
+								<a href="#">
+									View All Tasks
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-shopping-cart"></i> <span class="badge up badge-success">2</span>
+						</a>
+					</li>
+					<li class="dropdown user-box-no-images">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-user"></i> <span class="user-info"> My Account</span> <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-user">
+							<li>
+								<a href="#">
+									My Profile
+								</a>
+							</li>
+							<li>
+								<a href="login.html">
+									Signin
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+					<li class="dropdown nav-search-icon">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span>
+						</a>
+						<ul class="dropdown-menu dropdown-search">
+							<li>
+								<div class="search-box">
+									<form class="" role="search">
+										<input type="text" class="form-control" placeholder="Search" />
+									</form>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+				</ul>
+			</div>
+            <!-- /.Top Menu -->
+		</div>
+		
+		<div class="top-menu collapse navbar-collapse navbar-main-collapse">
+			<div class="container">
+			
+				<!-- Top Menu Left-->
+				<div class="nav-top">
+					<ul class="nav navbar-nav navbar-left">
+					
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Home
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Home Default</a></li>
+								<li><a href="index2.html">Home width Domain Search</a></li>
+								<li><a href="index3.html">Header Style 2</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Pages
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="web-hosting.html">Web Hosting</a></li>
+								<li><a href="reseller.html">Reseller Hosting</a></li>
+								<li><a href="vps-hosting.html">VPS Hosting</a></li>
+								<li><a href="dedicated.html">Dedicated Servers</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="faqs.html">FAQs</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Features
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="typo.html">Typography</a></li>
+								<li><a href="button-ui.html">Buttons</a></li>
+								<li><a href="forms.html">Forms</a></li>
+								<li><a href="tabs_accordions-ui.html">Tabs & Accordions</a></li>
+								<li><a href="elements-ui.html">Elements</a></li>
+								<li><a href="pricing.html">Pricing Tables</a></li>
+								<li><a href="error-404.html">Error pages</a></li>
+								
+							</ul>					
+						</li>
+
+						
+						
+						<!--Mega Menu-->
+						<li class="dropdown dropdown-megamenu">
+							<a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+								Mega Menu
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="mega-menu">
+										<div class="row">
+											<div class="col-md-4">
+												<h4>Footwear</h4>
+												<ul>
+													<li><a href="index.html">Astro Trainers</a></li>
+													<li><a href="index.html">Basketball Shoes</a></li>
+													<li><a href="index.html">Boots</a></li>
+													<li><a href="index.html">Canvas Shoes</a></li>
+													<li><a href="index.html">Football Boots</a></li>
+													<li><a href="index.html">Golf Shoes</a></li>
+													<li><a href="index.html">Hi Tops</a></li>
+													<li><a href="index.html">Indoor Trainers</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Clothing</h4>
+												<ul>
+													<li><a href="index.html">Base Layer</a></li>
+													<li><a href="index.html">Character</a></li>
+													<li><a href="index.html">Chinos</a></li>
+													<li><a href="index.html">Combats</a></li>
+													<li><a href="index.html">Cricket Clothing</a></li>
+													<li><a href="index.html">Fleeces</a></li>
+													<li><a href="index.html">Gilets</a></li>
+													<li><a href="index.html">Golf Tops</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Accessories</h4>
+												<ul>
+													<li><a href="index.html">Belts</a></li>
+													<li><a href="index.html">Caps</a></li>
+													<li><a href="index.html">Gloves</a></li>
+												</ul>
+
+												<h4>Clearance</h4>
+												<ul>
+													<li><a href="index.html">Jackets</a></li>
+													<li><a href="index.html">Bottoms</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<!--//Mega Menu-->
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="blog.html">Blog Page</a></li>
+								<li><a href="blog-post.html">Blog Item</a></li>
+							</ul>					
+						</li>
+						
+						<li>
+							<a href="contact.html">Contact Us</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- Top Menu Left-->
+				
+				
+			</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	
+	<div class="page-container"><!-- /page container -->
+
+	<!-- /#webhoster-demo-button -->	
+		<div class="demo-layout-menu front">
+			<div class="btn btn-gray setting-btn" id="setting-btn">
+				<i class="fa fa-cog bigger-150 icon-only"></i>
+			</div>
+			<div class="setting-box" id="setting-box">										
+				<span class="bigger-120">Color Options</span>										
+				<div class="hr hr-dotted hr-8"></div>										
+				<ul>									
+					<li><button class="btn" style="background-color:#3498db;" onclick="swapStyle('assets/css/themes/style.css')"></button></li>
+					<li><button class="btn" style="background-color:#86618f;" onclick="swapStyle('assets/css/themes/style-1.css')"></button></li> 
+					<li><button class="btn" style="background-color:#ba5d32;" onclick="swapStyle('assets/css/themes/style-2.css')"></button></li>
+					<li><button class="btn" style="background-color:#488075;" onclick="swapStyle('assets/css/themes/style-3.css')"></button></li>
+					<li><button class="btn" style="background-color:#4e72c2;" onclick="swapStyle('assets/css/themes/style-4.css')"></button></li>
+				</ul>											
+			</div>
+		</div>
+	<!-- /#webhoster-demo-button -->
+								
+		<div class="mass-head hero-1">
+			<div class="container">
+			
+				<div class="hero-inner text-center">				
+					<h1>Tabs & Accordions</h1>
+				</div>
+				
+			</div>			
+		</div>
+
+
+		
+		<div class="block-s2">
+			<div class="container">
+				<!--page content-->
+				<div class="row">
+					<div class="col-md-6 col-lg-6 col-sm-12">
+						<div class="portlet">
+							<div class="portlet-heading dark">
+								<div class="portlet-title">
+									<h4><i class="fa fa-arrows"></i> Tabs <small class="text-white">(regular)</small></h4>
+								</div>
+								<div class="portlet-widgets">
+									<a data-toggle="collapse" data-parent="#accordion" href="#tabs-1"><i class="fa fa-chevron-down"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="tabs-1" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="tc-tabs"><!-- Nav tabs style 1 -->
+										<ul class="nav nav-tabs">
+											<li class="active"><a href="#tab1" data-toggle="tab">Home</a></li>
+											<li><a href="#tab2" data-toggle="tab">Profile</a></li>
+											<li class="dropdown" ><a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+												<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+													<li><a href="#dropdown1" tabindex="-1" data-toggle="tab">@fat</a></li>
+													<li><a href="#dropdown2" tabindex="-1" data-toggle="tab">@mdo</a></li>
+												</ul>
+											</li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab1">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab2">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="dropdown1">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+											<div class="tab-pane" id="dropdown2">
+												Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.
+											</div>
+										</div>
+									</div><!--nav-tabs style 1-->
+												
+									<div class="tc-tabs"><!-- Nav tabs style 2-->
+										<ul class="nav nav-tabs tab-color-dark background-dark">
+											<li class="active"><a href="#tab3" data-toggle="tab">Home</a></li>
+											<li><a href="#tab4" data-toggle="tab"><i class="fa fa-user"></i> Profile</a></li>
+											<li><a href="#tab5" data-toggle="tab">Inbox</a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab3">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab4">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="tab5">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+										</div>
+									</div><!--nav-tabs style 2-->												
+								</div>
+							</div>
+						</div>
+							
+						<div class="portlet">
+							<div class="portlet-heading dark">
+								<div class="portlet-title">
+									<h4><i class="fa fa-arrows"></i> TabsBars</h4>
+								</div>
+								<div class="portlet-widgets">
+									<a data-toggle="collapse" data-parent="#accordion" href="#tabs-2"><i class="fa fa-chevron-down"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="tabs-2" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="tc-tabsbar"><!-- Nav tabs style 3 -->
+										<ul class="nav nav-tabs">
+											<li class="active"><a href="#tab6" data-toggle="tab">Home</a></li>
+											<li><a href="#tab7" data-toggle="tab">Profile</a></li>
+											<li class="dropdown" ><a href="#" id="myTabDrop2" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+												<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+													<li><a href="#dropdown3" tabindex="-1" data-toggle="tab">@fat</a></li>
+													<li><a href="#dropdown4" tabindex="-1" data-toggle="tab">@mdo</a></li>
+												</ul>
+											</li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab6">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab7">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="dropdown3">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+											<div class="tab-pane" id="dropdown4">
+												Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.
+											</div>
+										</div>
+									</div><!--nav-tabs style 3-->
+									
+									<div class="tc-tabsbar lg tabs-inverse"><!-- Nav tabs style 4-->
+										<ul class="nav nav-tabs">
+											<li class="active"><a href="#tab8" data-toggle="tab"><i class="fa fa-home"></i> Home</a></li>
+											<li><a href="#tab9" data-toggle="tab"><i class="fa fa-user"></i> Profile</a></li>
+											<li><a href="#tab10" data-toggle="tab"><i class="fa fa-envelope"></i> Inbox</a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab8">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab9">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="tab10">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+										</div>
+									</div><!--nav-tabs style 4-->												
+								</div>
+							</div>
+						</div>
+					</div>
+									
+					<div class="col-md-6 col-lg-6 col-sm-12">
+						<div class="portlet">
+							<div class="portlet-heading dark">
+								<div class="portlet-title">
+									<h4><i class="fa fa-arrows"></i> Tabs <small class="text-white">(buttons)</small></h4>
+								</div>
+								<div class="portlet-widgets">
+									<a data-toggle="collapse" data-parent="#accordion" href="#tabs-3"><i class="fa fa-chevron-down"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="tabs-3" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="tc-tabs"><!-- Nav tabs style 5 -->
+										<ul class="nav nav-tabs tab-lg-button">
+											<li class="active"><a href="#tab11" data-toggle="tab"><i class="fa fa-home bigger-130"></i>Home</a></li>
+											<li><a href="#tab12" data-toggle="tab"><i class="fa fa-user bigger-130"></i> Profile</a></li>
+											<li><a href="#tab13" data-toggle="tab"><i class="fa fa-envelope bigger-130"></i>Inbox<span class="badge badge-primary">7</span></a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab11">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse.
+											</div>
+											<div class="tab-pane" id="tab12">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+											</div>
+											<div class="tab-pane" id="tab13">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.
+											</div>
+										</div>
+									</div><!--nav-tabs style 5-->
+												
+									<div class="tc-tabs"><!-- Nav tabs style 6-->
+										<ul class="nav nav-tabs tab-small-button background-dark">
+											<li class="active"><a href="#tab14" data-toggle="tab"><i class="fa fa-home bigger-110"></i></a></li>
+											<li><a href="#tab15" data-toggle="tab"><i class="fa fa-user bigger-110"></i> </a></li>
+											<li><a href="#tab16" data-toggle="tab"><i class="fa fa-envelope bigger-110"></i><span class="badge badge-success">3</span></a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab14">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
+											</div>
+											<div class="tab-pane" id="tab15">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+											</div>
+											<div class="tab-pane" id="tab16">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.
+											</div>
+										</div>
+									</div><!--nav-tabs style 6-->
+									<i class="fa fa-info-circle text-blue"></i> Classes available dark and light both
+								</div>
+							</div>
+						</div>
+
+						<div class="portlet">
+							<div class="portlet-heading dark">
+								<div class="portlet-title">
+									<h4><i class="fa fa-arrows"></i> TabsBars <small class="text-white">w/ arrow makrup</small></h4>
+								</div>
+								<div class="portlet-widgets">
+									<a data-toggle="collapse" data-parent="#accordion" href="#tabs-4"><i class="fa fa-chevron-down"></i></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div id="tabs-4" class="panel-collapse collapse in">
+								<div class="portlet-body">
+									<div class="tc-tabsbar arrow tabs-success"><!-- Nav tabs style 7 -->
+										<ul class="nav nav-tabs">
+											<li class="active"><a href="#tab17" data-toggle="tab">Home</a></li>
+											<li><a href="#tab18" data-toggle="tab">Profile</a></li>
+											<li class="dropdown" ><a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+												<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+													<li><a href="#dropdown5" tabindex="-1" data-toggle="tab">@fat</a></li>
+													<li><a href="#dropdown6" tabindex="-1" data-toggle="tab">@mdo</a></li>
+												</ul>
+											</li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab17">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab18">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="dropdown5">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+											<div class="tab-pane" id="dropdown6">
+												Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.
+											</div>
+										</div>
+									</div><!--nav-tabs style 7-->
+												
+									<div class="tc-tabsbar lg arrow tabs-danger"><!-- Nav tabs style 8-->
+										<ul class="nav nav-tabs">
+											<li class="active"><a href="#tab19" data-toggle="tab"><i class="fa fa-user"></i> Home</a></li>
+											<li><a href="#tab20" data-toggle="tab"><i class="fa fa-user"></i> Profile</a></li>
+											<li><a href="#tab21" data-toggle="tab"><i class="fa fa-envelope"></i> Inbox</a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div class="tab-pane active" id="tab19">
+												Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+											</div>
+											<div class="tab-pane" id="tab20">
+												Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+											</div>
+											<div class="tab-pane" id="tab21">
+												Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+											</div>
+										</div>
+									</div><!--nav-tabs style 8-->												
+								</div>
+							</div>
+						</div>
+										
+					</div>								
+				</div>
+								
+				<h4><i class="fa fa-arrows"></i> Tabs <small>(justified)</small></h4>
+								
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="tc-tabs"><!-- Nav tabs style 9-->
+							<ul class="nav nav-tabs nav-justified background-dark">
+								<li class="active"><a href="#tab22" data-toggle="tab"><i class="fa fa-home"></i> Home</a></li>
+								<li><a href="#tab23" data-toggle="tab"><i class="fa fa-user"></i> Profile </a></li>
+								<li><a href="#tab24" data-toggle="tab"><i class="fa fa-envelope"></i> Massage</a></li>
+								<li><a href="#tab25" data-toggle="tab"><i class="fa fa-hand-o-right"></i> More</a></li>
+							</ul>
+											
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab22">
+									Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+								</div>
+								<div class="tab-pane" id="tab23">
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+								</div>
+								<div class="tab-pane" id="tab24">
+									Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+								</div>
+								<div class="tab-pane" id="tab25">
+									Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin.
+								</div>
+							</div>
+									
+						</div><!-- Nav tabs style 9-->
+					</div>
+							
+					<div class="col-lg-6">
+						<div class="tc-tabs lg"><!-- Nav tabs style 10-->
+							<ul class="nav nav-tabs nav-justified lg">
+								<li class="active"><a href="#tab26" data-toggle="tab"><i class="fa fa-home"></i> Home</a></li>
+								<li><a href="#tab27" data-toggle="tab"><i class="fa fa-user"></i> Profile</a></li>
+								<li><a href="#tab28" data-toggle="tab"><i class="fa fa-envelope"></i> Massage</a></li>
+								<li><a href="#tab29" data-toggle="tab"><i class="fa fa-hand-o-right"></i> More</a></li>
+							</ul>
+											
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab26">
+									Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+								</div>
+								<div class="tab-pane" id="tab27">
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+								</div>
+								<div class="tab-pane" id="tab28">
+									Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+								</div>
+								<div class="tab-pane" id="tab29">
+									Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin.
+								</div>
+							</div>
+											
+						</div><!-- Nav tabs style 10-->
+					</div>
+				</div>
+								
+				<h4><i class="fa fa-arrows"></i> Tabs <small>(left & right)</small></h4>
+						
+				<div class="row">
+					<div class="col-md-6 col-lg-6 col-sm-12">
+						<div class="tc-tabs tabs-left"><!-- Nav tabs style 11-->
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab30" data-toggle="tab"><i class="fa fa-home"></i> Home</a></li>
+								<li><a href="#tab31" data-toggle="tab"><i class="fa fa-user"></i> Profile </a></li>
+								<li><a href="#tab32" data-toggle="tab"><i class="fa fa-envelope"></i> Massage</a></li>
+							</ul>
+											
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab30">
+									<h5>Tab Content 1</h5>
+									Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+								</div>
+								<div class="tab-pane" id="tab31">
+									<h5>Tab Content 2</h5>
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+								</div>
+									<div class="tab-pane" id="tab32">
+									<h5>Tab Content 3</h5>
+										Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+									</div>
+								</div>
+											
+							</div><!-- Nav tabs style 11-->
+						</div>
+					<div class="col-md-6 col-lg-6 col-sm-12">
+						<div class="tc-tabs tabs-right"><!-- Nav tabs style 12-->
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab33" data-toggle="tab"><i class="fa fa-home"></i> Home</a></li>
+								<li><a href="#tab34" data-toggle="tab"><i class="fa fa-user"></i> Profile </a></li>
+								<li><a href="#tab35" data-toggle="tab"><i class="fa fa-envelope"></i> Massage</a></li>
+							</ul>
+											
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab33">
+									<h5>Tab Content 1</h5>
+									Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+								</div>
+								<div class="tab-pane" id="tab34">
+									<h5>Tab Content 2</h5>
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+								</div>
+								<div class="tab-pane" id="tab35">
+									<h5>Tab Content 3</h5>
+									Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica.
+								</div>
+							</div>
+											
+						</div><!-- Nav tabs style 12-->
+					</div>
+				</div>
+								
+								
+				<h4><i class="fa fa-arrows"></i> Tabs <small>(bottom)</small></h4>
+								
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="tc-tabs tabs-bottom"><!-- Nav tabs style 13-->
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab36">
+									Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+								</div>
+								<div class="tab-pane" id="tab37">
+									Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+								</div>
+								<div class="tab-pane" id="tab38">
+									Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer.
+								</div>
+							</div>
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab36" data-toggle="tab">Home</a></li>
+								<li><a href="#tab37" data-toggle="tab">Profile </a></li>
+								<li><a href="#tab38" data-toggle="tab">More</a></li>
+							</ul>											
+						</div><!-- Nav tabs style 13-->
+					</div>
+				</div>
+								
+								
+				<div class="hr hr-double hr-32"></div> 
+							
+								
+				<h5 class="heading text-uppercase"><i class="fa fa-arrows"></i> Accordions</h5>
+						
+				<div class="well white no-padding-bottom">
+					<div class="row">
+						<div class="col-md-6 col-lg-6 col-sm-12">								
+							<div class="panel-group tc-accordion" id="accordion1"><!-- Accordion style 1-->
+								<div class="panel panel-default">
+									<div class="panel-heading accordion-active">
+										<a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+											<h5 class="panel-title">
+												Collapsible Group Item #1 <span class="pull-right"><i class="fa fa-angle-down bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading ">
+										<a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+											<h5 class="panel-title">
+												Collapsible Group Item #2 <span class="pull-right"><i class="fa fa-angle-right bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">
+											<h5 class="panel-title">
+												Collapsible Group Item #3 <span class="pull-right"><i class="fa fa-angle-right bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+							</div><!-- Accordion style 1-->									
+							
+						</div>
+						<div class="col-md-6 col-lg-6 col-sm-12">
+							<div class="panel-group tc-accordion no-border" id="accordion2"><!-- Accordion style 2-->
+								<div class="panel panel-default">
+									<div class="panel-heading accordion-active">
+										<a data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+											<h5 class="panel-title">
+												Collapsible Group Item #1 <span class="pull-right"><i class="fa fa-angle-down bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseFour" class="panel-collapse collapse in">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading ">
+										<a data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+											<h5 class="panel-title">
+												Collapsible Group Item #2 <span class="pull-right"><i class="fa fa-angle-right bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseFive" class="panel-collapse collapse">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<a data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+											<h5 class="panel-title">
+												Collapsible Group Item #3 <span class="pull-right"><i class="fa fa-angle-right bigger-110"></i></span>
+											</h5>
+										</a>
+									</div>
+									<div id="collapseSix" class="panel-collapse collapse">
+										<div class="panel-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</div>
+									</div>
+								</div>
+							</div><!-- Accordion style 2-->
+										
+						</div>
+					</div>
+				</div>
+				<!--page content-->
+				
+			</div>
+		</div>
+		
+
+		
+		<div class="block-s1 bg-primary">
+			<div class="container hidden-xs">
+				<div class="pull-left">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+				</div>
+				<div class="pull-right">
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="container visible-xs">
+				<div class="text-center">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="block-s3 light">
+			<div class="container">
+				<div class="space-12"></div>
+				<div class="owl-carousel partners-slider">
+					<!-- Wrapper for partners slides -->  
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_1.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_2.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_3.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_4.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_5.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_6.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_7.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_8.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_9.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<!-- /Wrapper for slides -->
+				</div>
+			</div>
+		</div>
+		
+
+
+		
+		<div class="block-breadcrumbs">
+			<div class="container">
+				<ol class="breadcrumb">
+					<li class="active"><i class="fa fa-map-marker"></i></li>
+					<li><a href="index.html">Home</a></li>
+				</ol>
+			
+			</div>
+		</div>
+
+				
+		<!--Footer-->
+		<div class="block-footer">
+			<div class="container">
+				<div class="row hidden-xs hidden-sm">
+					<div class="col-md-2 col-sm-6">
+						<h4>Company</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Partners</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Blog</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-2 col-sm-6">
+						<h4>Help & Support</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Get Support</a></li>
+						</ul>
+						
+						
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Knowladgebase</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Network Status</a></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-6">
+						<h4>About Us</h4>
+						<div class="well">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...<a href="#">Read More..</a></p>
+						</div>
+
+						<ul class="list-inline">
+							<li><i class="fa fa-phone"></i> (123) 456-7890</li>
+							<li><i class="fa fa-envelope"></i> Sale.dtp@example.com</li>
+						</ul>
+						
+						<a href="" class="btn btn-success">Live Chat</a>
+						
+					</div>
+					<div class="col-md-2 social">
+						<h4>Follow Us</h4>
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+						
+					</div>
+				</div>
+
+
+				<div class="row visible-xs visible-sm">
+					<div class="col-sm-12 social text-center">
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="additional-info hidden-xs hidden-sm">
+					<hr class="separator"/>
+				
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="list-inline">
+								<li><a href="#"><img src="assets/images/awards/award-img1.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img2.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img3.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img4.png"></a></li>
+							</ul>
+						</div>
+						
+						<div class="col-sm-6">
+							<ul class="list-inline pull-right">
+								<li><i class="fa fa-cc-mastercard fa-3x"></i></li>
+								<li><i class="fa fa-cc-visa fa-3x"></i></li>
+								<li><i class="fa fa-cc-amex fa-3x"></i></li>
+								<li><i class="fa fa-cc-discover fa-3x"></i></li>
+								<li><i class="fa fa-cc-paypal fa-3x"></i></li>
+								<li><i class="fa fa-google-wallet fa-3x"></i></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+
+				
+				<div class="row copyright">
+					<div class="col-md-6 col-xs-12">
+						<p>2014 © WebHoster, All rights reserved.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<ul class="list-inline">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">SLA Aggrement</a></li>
+						</ul>						
+					</div>
+				</div>
+				
+				<div class="block-s2">
+					<div class="text-center small">
+						<i>Designed by <a href="http://thememetro.com" class="text-muted">ThemeMetro.com</a></i>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<a id="back-to-top" href="#" class="btn btn-primary btn-sm back-to-top" role="button"><i class="fa fa-angle-double-up icon-only bigger-110"></i></a>
+		<!--End Footer-->
+		
+	</div><!-- /page container -->
+    
+	
+    <!-- core JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	
+	<!-- PAGE LEVEL PLUGINS JS -->
+	<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/js/plugins/pace/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script><!-- slider for products -->
+	
+    <!-- Themes Core Scripts -->	
+	<script src="assets/js/main.js"></script>
+	
+
+	<!-- initial page level scripts for examples -->	
+	<script type="text/javascript">
+
+		// init variables require for all front pages
+			Apps.initNavTopBar2();
+		// end
+		
+		$(function () {
+			$('#langScroll, #taskScroll').slimScroll({
+				height: '190px',
+				disableFadeOut: true,
+				touchScrollStep: 50
+			});
+		});	
+		
+		$(".partners-slider").owlCarousel({ 
+			autoplay:true,
+			autoplayTimeout: 3000, //Set AutoPlay to 3 seconds
+			rtl: true,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:2,
+					nav:false
+				},
+				767:{
+					items:5,
+					nav:false
+				},
+				1000:{
+					items:7,
+					nav:false
+				}
+			}
+		});
+		
+	</script>
+</body>
+
+</html>

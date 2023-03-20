@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Dedicated Servers - WebHoster</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	
+	 <!-- Google Fonts CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	
+	 <!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+	<!-- PAGE LEVEL PLUGINS STYLES -->
+	<link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/plugins/footable/footable.min.css">
+	
+    <!-- Tc core CSS -->
+	<link id="whstyle" rel="stylesheet" href="assets/css/themes/style.css">
+	
+    <!-- Add custom CSS here -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<!-- End custom CSS here -->
+	
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+<body class="webhoster">
+
+    <nav class="navbar top-navbar navbar-fixed-top" role="navigation">
+		
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars text-gray"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-dark.png" alt="logo" class="img-responsive">
+                </a>
+            </div>		
+            <!-- Top Menu Right-->
+			<div class="nav-top">
+				<ul class="nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-tasks"></i> <span class="badge up badge-danger">7</span>
+						</a>
+						<ul class="dropdown-menu dropdown-scroll dropdown-tasks auto">
+							<li class="dropdown-header">
+								<i class="fa fa-tasks"></i> 10 Pending Tasks
+							</li>
+							<li id="taskScroll">
+								<ul class="list-unstyled">
+									<li>
+										<a href="#">
+											<p>
+												Purchase Order #439 <span class="pull-right"><strong>52%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100" style="width: 52%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												March Content Update <span class="pull-right"><strong>14%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100" style="width: 14%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Client #42 Data Scrubbing <span class="pull-right"><strong>68%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												PHP Upgrade Server #6 <span class="pull-right"><strong>85%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Malware Scan <span class="pull-right"><strong>66%</strong></span>
+											</p>
+											<div class="progress progress-striped active">
+												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;"></div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown-footer">
+								<a href="#">
+									View All Tasks
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-shopping-cart"></i> <span class="badge up badge-success">2</span>
+						</a>
+					</li>
+					<li class="dropdown user-box-no-images">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-user"></i> <span class="user-info"> My Account</span> <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-user">
+							<li>
+								<a href="#">
+									My Profile
+								</a>
+							</li>
+							<li>
+								<a href="login.html">
+									Signin
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+					<li class="dropdown nav-search-icon">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span>
+						</a>
+						<ul class="dropdown-menu dropdown-search">
+							<li>
+								<div class="search-box">
+									<form class="" role="search">
+										<input type="text" class="form-control" placeholder="Search" />
+									</form>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+				</ul>
+			</div>
+            <!-- /.Top Menu -->
+		</div>
+		
+		<div class="top-menu collapse navbar-collapse navbar-main-collapse">
+			<div class="container">
+			
+				<!-- Top Menu Left-->
+				<div class="nav-top">
+					<ul class="nav navbar-nav navbar-left">
+					
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Home
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Home Default</a></li>
+								<li><a href="index2.html">Home width Domain Search</a></li>
+								<li><a href="index3.html">Header Style 2</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Pages
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="web-hosting.html">Web Hosting</a></li>
+								<li><a href="reseller.html">Reseller Hosting</a></li>
+								<li><a href="vps-hosting.html">VPS Hosting</a></li>
+								<li><a href="dedicated.html">Dedicated Servers</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="faqs.html">FAQs</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Features
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="typo.html">Typography</a></li>
+								<li><a href="button-ui.html">Buttons</a></li>
+								<li><a href="forms.html">Forms</a></li>
+								<li><a href="tabs_accordions-ui.html">Tabs & Accordions</a></li>
+								<li><a href="elements-ui.html">Elements</a></li>
+								<li><a href="pricing.html">Pricing Tables</a></li>
+								<li><a href="error-404.html">Error pages</a></li>
+								
+							</ul>					
+						</li>
+
+						
+						
+						<!--Mega Menu-->
+						<li class="dropdown dropdown-megamenu">
+							<a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+								Mega Menu
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="mega-menu">
+										<div class="row">
+											<div class="col-md-4">
+												<h4>Footwear</h4>
+												<ul>
+													<li><a href="index.html">Astro Trainers</a></li>
+													<li><a href="index.html">Basketball Shoes</a></li>
+													<li><a href="index.html">Boots</a></li>
+													<li><a href="index.html">Canvas Shoes</a></li>
+													<li><a href="index.html">Football Boots</a></li>
+													<li><a href="index.html">Golf Shoes</a></li>
+													<li><a href="index.html">Hi Tops</a></li>
+													<li><a href="index.html">Indoor Trainers</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Clothing</h4>
+												<ul>
+													<li><a href="index.html">Base Layer</a></li>
+													<li><a href="index.html">Character</a></li>
+													<li><a href="index.html">Chinos</a></li>
+													<li><a href="index.html">Combats</a></li>
+													<li><a href="index.html">Cricket Clothing</a></li>
+													<li><a href="index.html">Fleeces</a></li>
+													<li><a href="index.html">Gilets</a></li>
+													<li><a href="index.html">Golf Tops</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Accessories</h4>
+												<ul>
+													<li><a href="index.html">Belts</a></li>
+													<li><a href="index.html">Caps</a></li>
+													<li><a href="index.html">Gloves</a></li>
+												</ul>
+
+												<h4>Clearance</h4>
+												<ul>
+													<li><a href="index.html">Jackets</a></li>
+													<li><a href="index.html">Bottoms</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<!--//Mega Menu-->
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="blog.html">Blog Page</a></li>
+								<li><a href="blog-post.html">Blog Item</a></li>
+							</ul>					
+						</li>
+						
+						<li>
+							<a href="contact.html">Contact Us</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- Top Menu Left-->
+				
+				
+			</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	
+	<div class="page-container"><!-- /page container -->
+
+	<!-- /#webhoster-demo-button -->	
+		<div class="demo-layout-menu front">
+			<div class="btn btn-gray setting-btn" id="setting-btn">
+				<i class="fa fa-cog bigger-150 icon-only"></i>
+			</div>
+			<div class="setting-box" id="setting-box">										
+				<span class="bigger-120">Color Options</span>										
+				<div class="hr hr-dotted hr-8"></div>										
+				<ul>									
+					<li><button class="btn" style="background-color:#3498db;" onclick="swapStyle('assets/css/themes/style.css')"></button></li>
+					<li><button class="btn" style="background-color:#86618f;" onclick="swapStyle('assets/css/themes/style-1.css')"></button></li> 
+					<li><button class="btn" style="background-color:#ba5d32;" onclick="swapStyle('assets/css/themes/style-2.css')"></button></li>
+					<li><button class="btn" style="background-color:#488075;" onclick="swapStyle('assets/css/themes/style-3.css')"></button></li>
+					<li><button class="btn" style="background-color:#4e72c2;" onclick="swapStyle('assets/css/themes/style-4.css')"></button></li>
+				</ul>											
+			</div>
+		</div>
+	<!-- /#webhoster-demo-button -->
+								
+		<div class="mass-head hero-1">
+			<div class="container">
+			
+				<div class="hero-inner text-center">				
+					<h1>Dedicated Servers</h1>
+					<ul class="list-inline">
+						<li><i class="fa fa-check"></i> Complete Control</li>
+						<li><i class="fa fa-check"></i> Dedicated Resource, No Restrictions</li>
+						<li><i class="fa fa-check"></i> More Power, Flexibility and Security</li>
+					</ul>
+				</div>
+				
+			</div>			
+		</div>
+
+		<div class="block-s1 inverse arrow-block">
+			<div class="container">
+				<div class="text-center">
+					<h2><span class="text-warning">New</span> CPUs. <span class="text-warning">More</span> RAM. <span class="text-warning">Bigger</span> Drives.</h2>
+				</div>				
+			</div>
+		</div>		
+
+
+		<div class="block-s3">
+			<div class="container">
+				<h3>Single Processor Multi-Core Servers:</h3>
+				<table class="table table-bordered table-striped table-hover tc-table footable">
+					<thead>
+						<tr>
+							<th>Servers</th>
+							<th data-hide="phone,tablet">CPU Cores</th>
+							<th data-hide="phone">Memory</th>
+							<th data-hide="phone,tablet">Default Drive(s)</th>
+							<th data-hide="phone,tablet">Bandwidth</th>
+							<th data-hide="phone">Monthly</th>
+							<th data-sort-ignore="true"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="warning">
+							<td><i class="fa fa-star text-warning"></i> Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- END Responsive table -->
+				
+				<div class="block-s3">
+				<h3>Dual Processor, Quad & Hexa-Core Series:</h3>
+				<table class="table table-bordered table-striped table-hover tc-table footable">
+					<thead>
+						<tr>
+							<th>Servers</th>
+							<th data-hide="phone,tablet">CPU Cores</th>
+							<th data-hide="phone">Memory</th>
+							<th data-hide="phone,tablet">Default Drive(s)</th>
+							<th data-hide="phone,tablet">Bandwidth</th>
+							<th data-hide="phone">Monthly</th>
+							<th data-sort-ignore="true"></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr class="warning">
+							<td><i class="fa fa-star text-warning"></i> Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>Intel Core I5-760</td>
+							<td>4x2.8GHz</td>
+							<td>16 GB DDR3</td>
+							<td>2x500 GB SATA</td>
+							<td>10TB</td>
+							<td>$159</td>
+							<td class="col-medium center">
+								<div class="action-buttons">
+									<a href="#" class="text-success">Order Now</a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				</div>
+				
+			</div>
+			
+		</div>
+
+
+		<div class="block-s1 bg-primary arrow-block">
+			<div class="container">
+				<div class="text-center">
+					<h2>The Best Features At The Best Price!</h2>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="block-s2">
+			<div class="container">
+				
+				<h2>Get Started Quickly & Easily</h2>
+				<p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+				<p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem. Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+			
+				<div class="row block-s3">
+					<div class="col-sm-4 tc-box s3">
+						<i class="fa fa-rocket"></i>
+						<h3>Powerful Tools</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-sm-4 tc-box s3">
+						<i class="fa fa-sliders"></i>
+						<h3>Flexibility</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-sm-4 tc-box s3">
+						<i class="fa fa-server"></i>
+						<h3>Scalability</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+				</div>
+
+				<h2>FAQs</h2>
+				<div class="panel-group tc-accordion no-border" id="sub-faq-list-1"><!-- Services General Questions-->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#sub-faq-list-1" href="#s-question1">
+								<h5 class="panel-title">
+									<span><i class="fa fa-angle-right bigger-110"></i></span> Services Question One, Lorem ipsum dolor sit amet?
+								</h5>
+							</a>
+						</div>
+						<div id="s-question1" class="panel-collapse collapse">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading ">
+							<a data-toggle="collapse" data-parent="#sub-faq-list-1" href="#s-question2">
+								<h5 class="panel-title">
+									<span><i class="fa fa-angle-right bigger-110"></i></span> Services Question Two Lorem ipsum dolor sit amet?
+								</h5>
+							</a>
+						</div>
+						<div id="s-question2" class="panel-collapse collapse">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a data-toggle="collapse" data-parent="#sub-faq-list-1" href="#s-question3">
+								<h5 class="panel-title">
+									<span><i class="fa fa-angle-right bigger-110"></i></span> Services Question Three Lorem ipsum dolor sit amet?
+								</h5>
+							</a>
+						</div>
+						<div id="s-question3" class="panel-collapse collapse">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+							</div>
+						</div>
+					</div>
+				</div><!-- Services General Questions-->
+						
+			</div>
+		</div>
+
+
+		
+		<div class="block-s1 bg-primary">
+			<div class="container hidden-xs">
+				<div class="pull-left">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+				</div>
+				<div class="pull-right">
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="container visible-xs">
+				<div class="text-center">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="block-s3 light">
+			<div class="container">
+				<div class="space-12"></div>
+				<div class="owl-carousel partners-slider">
+					<!-- Wrapper for partners slides -->  
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_1.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_2.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_3.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_4.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_5.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_6.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_7.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_8.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_9.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<!-- /Wrapper for slides -->
+				</div>
+			</div>
+		</div>
+		
+
+
+		
+		<div class="block-breadcrumbs">
+			<div class="container">
+				<ol class="breadcrumb">
+					<li class="active"><i class="fa fa-map-marker"></i></li>
+					<li><a href="index.html">Home</a></li>
+				</ol>
+			
+			</div>
+		</div>
+
+				
+		<!--Footer-->
+		<div class="block-footer">
+			<div class="container">
+				<div class="row hidden-xs hidden-sm">
+					<div class="col-md-2 col-sm-6">
+						<h4>Company</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Partners</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Blog</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-2 col-sm-6">
+						<h4>Help & Support</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Get Support</a></li>
+						</ul>
+						
+						
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Knowladgebase</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Network Status</a></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-6">
+						<h4>About Us</h4>
+						<div class="well">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...<a href="#">Read More..</a></p>
+						</div>
+
+						<ul class="list-inline">
+							<li><i class="fa fa-phone"></i> (123) 456-7890</li>
+							<li><i class="fa fa-envelope"></i> Sale.dtp@example.com</li>
+						</ul>
+						
+						<a href="" class="btn btn-success">Live Chat</a>
+						
+					</div>
+					<div class="col-md-2 social">
+						<h4>Follow Us</h4>
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+						
+					</div>
+				</div>
+
+
+				<div class="row visible-xs visible-sm">
+					<div class="col-sm-12 social text-center">
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="additional-info hidden-xs hidden-sm">
+					<hr class="separator"/>
+				
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="list-inline">
+								<li><a href="#"><img src="assets/images/awards/award-img1.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img2.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img3.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img4.png"></a></li>
+							</ul>
+						</div>
+						
+						<div class="col-sm-6">
+							<ul class="list-inline pull-right">
+								<li><i class="fa fa-cc-mastercard fa-3x"></i></li>
+								<li><i class="fa fa-cc-visa fa-3x"></i></li>
+								<li><i class="fa fa-cc-amex fa-3x"></i></li>
+								<li><i class="fa fa-cc-discover fa-3x"></i></li>
+								<li><i class="fa fa-cc-paypal fa-3x"></i></li>
+								<li><i class="fa fa-google-wallet fa-3x"></i></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+
+				
+				<div class="row copyright">
+					<div class="col-md-6 col-xs-12">
+						<p>2014 © WebHoster, All rights reserved.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<ul class="list-inline">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">SLA Aggrement</a></li>
+						</ul>						
+					</div>
+				</div>
+				
+				<div class="block-s2">
+					<div class="text-center small">
+						<i>Designed by <a href="http://thememetro.com" class="text-muted">ThemeMetro.com</a></i>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<a id="back-to-top" href="#" class="btn btn-primary btn-sm back-to-top" role="button"><i class="fa fa-angle-double-up icon-only bigger-110"></i></a>
+		<!--End Footer-->
+		
+	</div><!-- /page container -->
+    
+	
+    <!-- core JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	
+	<!-- PAGE LEVEL PLUGINS JS -->
+	<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/js/plugins/pace/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script><!-- slider for products -->
+	<script src="assets/js/plugins/footable/footable.min.js"></script>
+	<script src="assets/js/plugins/footable/footable.init.js"></script>
+	
+    <!-- Themes Core Scripts -->	
+	<script src="assets/js/main.js"></script>
+	
+
+	<!-- initial page level scripts for examples -->	
+	<script type="text/javascript">
+
+		// init variables require for all front pages
+			Apps.initNavTopBar2();
+		// end
+		
+		$(function () {
+			$('#langScroll, #taskScroll').slimScroll({
+				height: '190px',
+				disableFadeOut: true,
+				touchScrollStep: 50
+			});
+		});	
+		
+		$(".partners-slider").owlCarousel({ 
+			autoPlay: 3000, //Set AutoPlay to 3 seconds
+			pagination: false,
+			items : 7
+		});
+		
+	</script>
+</body>
+
+</html>

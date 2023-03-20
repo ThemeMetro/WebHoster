@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Form Elements - WebHoster</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css">
+	
+	 <!-- Google Fonts CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	
+	 <!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+	<!-- PAGE LEVEL PLUGINS STYLES -->
+	<link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+	
+    <!-- Tc core CSS -->
+	<link id="whstyle" rel="stylesheet" href="assets/css/themes/style.css">
+	
+    <!-- Add custom CSS here -->
+		<link rel="stylesheet" href="assets/css/custom.css">
+	<!-- End custom CSS here -->
+	
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+
+<body class="webhoster rtl">
+
+    <nav class="navbar top-navbar navbar-fixed-top" role="navigation">
+		
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars text-gray"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo-dark.png" alt="logo" class="img-responsive">
+                </a>
+            </div>		
+            <!-- Top Menu Right-->
+			<div class="nav-top">
+				<ul class="nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-tasks"></i> <span class="badge up badge-danger">7</span>
+						</a>
+						<ul class="dropdown-menu dropdown-scroll dropdown-tasks auto">
+							<li class="dropdown-header">
+								<i class="fa fa-tasks"></i> 10 Pending Tasks
+							</li>
+							<li id="taskScroll">
+								<ul class="list-unstyled">
+									<li>
+										<a href="#">
+											<p>
+												Purchase Order #439 <span class="pull-right"><strong>52%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100" style="width: 52%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												March Content Update <span class="pull-right"><strong>14%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="14" aria-valuemin="0" aria-valuemax="100" style="width: 14%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Client #42 Data Scrubbing <span class="pull-right"><strong>68%</strong></span>
+											</p>
+											<div class="progress progress-striped">
+												<div class="progress-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												PHP Upgrade Server #6 <span class="pull-right"><strong>85%</strong></span>
+											</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<p>
+												Malware Scan <span class="pull-right"><strong>66%</strong></span>
+											</p>
+											<div class="progress progress-striped active">
+												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;"></div>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown-footer">
+								<a href="#">
+									View All Tasks
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-shopping-cart"></i> <span class="badge up badge-success">2</span>
+						</a>
+					</li>
+					<li class="dropdown user-box-no-images">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-user"></i> <span class="user-info"> My Account</span> <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu dropdown-user">
+							<li>
+								<a href="#">
+									My Profile
+								</a>
+							</li>
+							<li>
+								<a href="login.html">
+									Signin
+								</a>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+					<li class="dropdown nav-search-icon">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span>
+						</a>
+						<ul class="dropdown-menu dropdown-search">
+							<li>
+								<div class="search-box">
+									<form class="" role="search">
+										<input type="text" class="form-control" placeholder="Search" />
+									</form>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!--Search Box-->
+				</ul>
+			</div>
+            <!-- /.Top Menu -->
+		</div>
+		
+		<div class="top-menu collapse navbar-collapse navbar-main-collapse">
+			<div class="container">
+			
+				<!-- Top Menu Left-->
+				<div class="nav-top">
+					<ul class="nav navbar-nav navbar-left">
+					
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Home
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Home Default</a></li>
+								<li><a href="index2.html">Home width Domain Search</a></li>
+								<li><a href="index3.html">Header Style 2</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Pages
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="web-hosting.html">Web Hosting</a></li>
+								<li><a href="reseller.html">Reseller Hosting</a></li>
+								<li><a href="vps-hosting.html">VPS Hosting</a></li>
+								<li><a href="dedicated.html">Dedicated Servers</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="faqs.html">FAQs</a></li>
+							</ul>					
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Features
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="typo.html">Typography</a></li>
+								<li><a href="button-ui.html">Buttons</a></li>
+								<li><a href="forms.html">Forms</a></li>
+								<li><a href="tabs_accordions-ui.html">Tabs & Accordions</a></li>
+								<li><a href="elements-ui.html">Elements</a></li>
+								<li><a href="pricing.html">Pricing Tables</a></li>
+								<li><a href="error-404.html">Error pages</a></li>
+								
+							</ul>					
+						</li>
+
+						
+						
+						<!--Mega Menu-->
+						<li class="dropdown dropdown-megamenu">
+							<a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+								Mega Menu
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="mega-menu">
+										<div class="row">
+											<div class="col-md-4">
+												<h4>Footwear</h4>
+												<ul>
+													<li><a href="index.html">Astro Trainers</a></li>
+													<li><a href="index.html">Basketball Shoes</a></li>
+													<li><a href="index.html">Boots</a></li>
+													<li><a href="index.html">Canvas Shoes</a></li>
+													<li><a href="index.html">Football Boots</a></li>
+													<li><a href="index.html">Golf Shoes</a></li>
+													<li><a href="index.html">Hi Tops</a></li>
+													<li><a href="index.html">Indoor Trainers</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Clothing</h4>
+												<ul>
+													<li><a href="index.html">Base Layer</a></li>
+													<li><a href="index.html">Character</a></li>
+													<li><a href="index.html">Chinos</a></li>
+													<li><a href="index.html">Combats</a></li>
+													<li><a href="index.html">Cricket Clothing</a></li>
+													<li><a href="index.html">Fleeces</a></li>
+													<li><a href="index.html">Gilets</a></li>
+													<li><a href="index.html">Golf Tops</a></li>
+												</ul>
+											</div>
+											<div class="col-md-4">
+												<h4>Accessories</h4>
+												<ul>
+													<li><a href="index.html">Belts</a></li>
+													<li><a href="index.html">Caps</a></li>
+													<li><a href="index.html">Gloves</a></li>
+												</ul>
+
+												<h4>Clearance</h4>
+												<ul>
+													<li><a href="index.html">Jackets</a></li>
+													<li><a href="index.html">Bottoms</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<!--//Mega Menu-->
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Blog
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="blog.html">Blog Page</a></li>
+								<li><a href="blog-post.html">Blog Item</a></li>
+							</ul>					
+						</li>
+						
+						<li>
+							<a href="contact.html">Contact Us</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- Top Menu Left-->
+				
+				
+			</div>
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	
+	<div class="page-container"><!-- /page container -->
+
+	<!-- /#webhoster-demo-button -->	
+		<div class="demo-layout-menu front">
+			<div class="btn btn-gray setting-btn" id="setting-btn">
+				<i class="fa fa-cog bigger-150 icon-only"></i>
+			</div>
+			<div class="setting-box" id="setting-box">										
+				<span class="bigger-120">Color Options</span>										
+				<div class="hr hr-dotted hr-8"></div>										
+				<ul>									
+					<li><button class="btn" style="background-color:#3498db;" onclick="swapStyle('assets/css/themes/style.css')"></button></li>
+					<li><button class="btn" style="background-color:#86618f;" onclick="swapStyle('assets/css/themes/style-1.css')"></button></li> 
+					<li><button class="btn" style="background-color:#ba5d32;" onclick="swapStyle('assets/css/themes/style-2.css')"></button></li>
+					<li><button class="btn" style="background-color:#488075;" onclick="swapStyle('assets/css/themes/style-3.css')"></button></li>
+					<li><button class="btn" style="background-color:#4e72c2;" onclick="swapStyle('assets/css/themes/style-4.css')"></button></li>
+				</ul>											
+			</div>
+		</div>
+	<!-- /#webhoster-demo-button -->
+								
+		<div class="mass-head hero-1">
+			<div class="container">
+			
+				<div class="hero-inner text-center">				
+					<h1>Forms Elements</h1>
+					<p>general elements, css only</p>
+				</div>
+				
+			</div>			
+		</div>
+
+
+		
+		<div class="block-s2">
+			<div class="container">
+				<!--page content-->
+				
+				
+								<!-- START YOUR CONTENT HERE -->
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Form Inputs</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-1"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-1" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-horizontal" role="form" method="post">
+														<div class="form-group">
+															<div class="col-sm-12">
+																<input type="text" class="form-control" placeholder="Enter text">
+														
+																<div class="space-4"></div>
+																<input type="text" class="form-control" placeholder="Disabled input here..." disabled>
+														
+																<div class="space-4"></div>
+																<input type="text" class="form-control" placeholder="Readonly" readonly>
+														
+																<div class="space-4"></div>
+																<input type="text" class="form-control" placeholder="input with help">
+																<span class="help-block">A block of help text.</span>
+														
+																<div class="space-4"></div>
+																<div class="input-icon">
+																	<span class="fa fa-leaf text-green"></span>
+																	<input type="text" class="form-control" placeholder="Left icon">
+																</div>
+																<div class="space-4"></div>
+																<div class="input-icon right">
+																	<span class="fa fa-bell-o text-primary"></span>
+																	<input type="text" class="form-control" placeholder="Right icon">
+																</div>
+																<div class="space-4"></div>
+																<input type="text" class="form-control tooltip-info" placeholder="Tooltip on hover" data-placement="bottom" data-rel="tooltip" title="Hello Tooltip">
+															</div>
+												
+														</div>											
+													</form>
+												</div>
+											</div>
+										</div>
+										
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Checkbox and Radios</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-2"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-2" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-horizontal" role="form" method="post">
+														<div class="form-group">
+															<label class="col-sm-3 control-label">Checkboxs</label>
+															<div class="col-sm-9">
+																<div class="tcb">
+																	<label>
+																		<input type="checkbox" class="tc">
+																		<span class="labels"> Check me out</span>
+																	</label>
+																</div>
+																<div class="tcb">
+																	<label>
+																		<input type="checkbox" class="tc" disabled>
+																		<span class="labels"> Check me out</span>
+																	</label>
+																</div>
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<label class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<div class="tcb">
+																	<label class="tcb-inline">
+																		<input type="checkbox" class="tc">
+																		<span class="labels"> Check me out</span>
+																	</label>
+																	<label class="tcb-inline">
+																		<input type="checkbox" class="tc" disabled>
+																		<span class="labels"> disabled</span>
+																	</label>
+																	<label class="tcb-inline">
+																		<input type="checkbox" class="tc">
+																		<span class="labels"> Check me out</span>
+																	</label>
+																	<span class="help-block">inline checkbox.</span>														
+																</div>
+															</div>
+														</div>
+																
+														<hr class="separator" />
+																
+														<div class="form-group">
+															<label class="col-sm-3 control-label">Radios</label>
+															<div class="col-sm-9">
+																<div class="tcb">
+																	<label>
+																		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" class="tc">
+																		<span class="labels"> Radio 1</span>
+																	</label>
+																</div>
+																<div class="tcb">
+																	<label>
+																		<input type="radio" class="tc" disabled>
+																		<span class="labels"> disabled</span>
+																	</label>
+																</div>
+															</div>
+														</div>
+																
+														<div class="space-12"></div>
+																
+														<div class="form-group">
+															<label class="col-sm-3 control-label"></label>
+															<div class="col-sm-9">
+																<div class="tcb">
+																	<label class="tcb-inline">
+																		<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" class="tc">
+																		<span class="labels"> Radio 2</span>
+																	</label>
+																	<label class="tcb-inline">
+																		<input type="radio" class="tc" disabled>
+																		<span class="labels"> disabled</span>
+																	</label>
+																	<label class="tcb-inline">
+																		<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" class="tc">
+																		<span class="labels"> Radio 3</span>
+																	</label>
+																	<span class="help-block">inline radios.</span>														
+																</div>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										
+										<div class="portlet">
+											<div class="portlet-heading default-bg">
+												<div class="portlet-title">
+													<h4>Horizontal form</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-3"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-3" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-horizontal" role="form" method="post">
+														<div class="form-group">
+															<label class="col-sm-2 control-label">Text</label>
+															<div class="col-sm-10">
+																<input type="text" class="form-control" placeholder="Text">
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">Email</label>
+															<div class="col-sm-10">
+																<div class="input-group">
+																	<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+																	<input type="email" class="form-control" placeholder="Email">
+																</div>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">Password</label>
+															<div class="col-sm-10">
+																<div class="input-group">
+																	<input type="password" class="form-control" placeholder="Password">
+																	<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+																</div>
+																<span class="help-block">Example block-level help text here.</span>
+															</div>
+														</div>
+														<div class="form-group">
+															<div class="col-sm-offset-2 col-sm-10">
+																<div class="tcb">
+																	<label>
+																		<input type="checkbox" class="tc">
+																		<span class="labels"> Check me out</span>
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-actions">
+															<div class="form-group">
+																<div class="col-sm-offset-2 col-sm-10">
+																	<button type="submit" class="btn btn-primary">Submit</button>
+																	<button type="submit" class="btn">Cancel</button>
+																</div>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										
+									</div>
+									
+									<div class="col-lg-6">
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Input Groups</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-4"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-4" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-horizontal" role="form" method="post">											
+														<div class="form-group">
+															<div class="col-sm-12">
+																<div class="input-group">
+																	<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+																	<input type="text" class="form-control" placeholder="Icon left">
+																</div>
+																		
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																	<input type="text" class="form-control" placeholder="Icon right">
+																	<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+																</div>
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																	<span class="input-group-addon"><i class="fa fa-usd"></i></span>
+																	<input type="text" class="form-control" placeholder="Icon left & text right">
+																	<span class="input-group-addon">.00</span>
+																</div>
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																	<span class="input-group-addon">
+																		<span class="tcb">
+																			<input type="checkbox" class="tc tc-primary">
+																			<span class="labels"></span>
+																		</span>
+																	</span>
+																	<input type="text" class="form-control" placeholder="checkbox">
+																</div>
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																		<span class="input-group-btn">
+																			<button class="btn" type="button">Go!</button>
+																		</span>
+																	<input type="text" class="form-control" placeholder="button">
+																</div>
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																	<input type="text" class="form-control" placeholder="Buttons with dropdowns">
+																	<div class="input-group-btn">
+																		<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+																		<ul class="dropdown-menu dropdown-default dropdown-menu-right">
+																			<li><a href="#">Action</a></li>
+																			<li><a href="#">Another action</a></li>
+																			<li><a href="#">Something else here</a></li>
+																			<li class="divider"></li>
+																			<li><a href="#">Separated link</a></li>
+																		</ul>
+																	</div>												
+																</div>
+																<div class="space-4"></div>
+																		
+																<div class="input-group">
+																	<div class="input-group-btn">
+																		<button type="button" class="btn" tabindex="-1">Action</button>
+																			<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+																			<span class="caret"></span>
+																			<span class="sr-only">Toggle Dropdown</span>
+																		</button>
+																		<ul class="dropdown-menu dropdown-default" role="menu">
+																			<li><a href="#">Action</a></li>
+																			<li><a href="#">Another action</a></li>
+																			<li><a href="#">Something else here</a></li>
+																			<li class="divider"></li>
+																			<li><a href="#">Separated link</a></li>
+																		</ul>
+																	</div>
+																	<input type="text" class="form-control" placeholder="Segmented Buttons">
+																</div>
+																<div class="space-4"></div>
+
+																<div class="input-group">
+																	<span class="input-group-btn">
+																		<span class="btn btn-file">
+																			Browse <input type="file" multiple>
+																		</span>
+																	</span>
+																	<input type="text" class="form-control" readonly>
+																</div>
+														
+															</div>
+														</div>
+														
+														<div class="form-group">
+															<div class="col-sm-12">
+																<select class="form-control">
+																	<option>Option 1</option>
+																	<option>Option 2</option>
+																	<option>Option 3</option>
+																	<option>Option 4</option>
+																</select>
+																		
+																<div class="space-4"></div>
+																<span class="help-block text-gray">Multiple select <i class="fa fa-hand-o-down text-orange bigger-110"></i></span>		
+																<select multiple class="form-control">
+																	<option>Option 1</option>
+																	<option>Option 2</option>
+																	<option>Option 3</option>
+																	<option>Option 4</option>
+																</select>													
+															</div>
+														</div>
+														
+													</form>
+												</div>
+											</div>
+										</div>
+										
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Swithcs</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-5"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-5" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-horizontal" role="form" method="post">
+														<div class="form-group">
+															<div class="col-sm-12">
+																<div class="row">
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-2" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-3" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-4" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-5" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-6" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																	<div class="col-sm-3">
+																		<label>
+																			<input name="switch-field-1" class="tc tc-switch tc-switch-7" type="checkbox" />
+																			<span class="labels"></span>
+																		</label>
+																	</div>
+																</div>
+															</div>
+														</div>											
+													</form>
+												</div>
+											</div>
+										</div>
+										
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Basic form</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-6"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-6" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form role="form" method="post">
+														<div class="form-group">
+															<label>Text</label>
+															<input type="text" class="form-control" placeholder="Text">
+														</div>
+														<div class="form-group">
+															<label>Email address</label>
+																<div class="input-group">
+																	<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+																	<input type="email" class="form-control" placeholder="Enter email">
+																</div>
+														</div>
+														<div class="form-group">
+															<label>Password</label>
+																<div class="input-group">
+																	<input type="password" class="form-control" placeholder="Password">
+																	<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+																</div>
+														</div>
+														<div class="tcb"><!-- must require-->
+															<label>
+																<input type="checkbox" class="tc">
+																<span class="labels"> Check me out</span>
+															</label>
+														</div>
+														<div class="form-actions">
+															<button type="submit" class="btn btn-primary">Submit</button>
+															<button type="submit" class="btn">Cancel</button>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										
+										
+									</div>
+									
+								</div>
+								
+								<div class="row">
+									<div class="col-lg-8">									
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Inline Form</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-7"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-7" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-inline" role="form">
+														<div class="form-group">
+															<label class="sr-only">Email address</label>
+															<input type="email" class="form-control" placeholder="Enter email">
+														</div>
+														<div class="form-group">
+															<label class="sr-only">Password</label>
+															<input type="password" class="form-control" placeholder="Password">
+														</div>
+														<div class="tcb">
+															<label>
+																<input type="checkbox" class="tc tc-success">
+																<span class="labels"> Remember me</span>
+															</label>
+														</div>
+														<button type="submit" class="btn btn-primary btn-line"><i class="fa fa-key"></i>Sign in</button>
+													</form>											
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Search Form</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-8"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-8" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form class="form-search">
+														<div class="input-group">
+															<input type="text" class="form-control search-query" placeholder="Type your query">
+															<span class="input-group-btn">
+																<button type="button" class="btn btn-primary">
+																	<i class="fa fa-search icon-only"></i>
+																</button>
+															</span>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">									
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Height sizing</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-9"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-9" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form role="form">
+														<input type="text" class="form-control input-lg" placeholder=".input.lg">
+														<div class="space-4"></div>
+														<input type="text" class="form-control" placeholder="Default Input">
+														<div class="space-4"></div>
+														<input type="text" class="form-control input-sm" placeholder=".input-sm">
+													</form>											
+												</div>
+											</div>
+										</div>
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Validation states</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-10"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-10" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form role="form">
+														<div class="form-group has-success">
+															<label class="control-label">Input with success & icon</label>
+															<div class="input-icon right">
+																<span class="fa fa-check"></span>
+																<input type="text" class="form-control" placeholder="success with icon right">
+															</div>
+														</div>
+														<div class="form-group has-warning">
+															<label class="control-label">Input with warning</label>
+															<input type="text" class="form-control" >
+														</div>
+														<div class="form-group has-error">
+															<label class="control-label">Input with error</label>
+															<input type="text" class="form-control">
+														</div>
+													</form>											
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">									
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Column grid sizing</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-11"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-11" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form role="form">
+														<div class="row">
+															<div class="col-xs-3">
+																<input type="text" class="form-control" placeholder=".col-xs-3">
+															</div>
+															<div class="col-xs-4">
+																<input type="text" class="form-control" placeholder=".col-xs-4">
+															</div>
+															<div class="col-xs-5">
+																<input type="text" class="form-control" placeholder=".col-xs-5">
+															</div>
+														</div>
+														
+														<div class="space-4"></div>
+														
+														<div class="row">
+															<div class="col-xs-6">
+																<input type="text" class="form-control" placeholder=".col-xs-6">
+															</div>
+															<div class="col-xs-6">
+																<input type="text" class="form-control" placeholder=".col-xs-6">
+															</div>
+														</div>
+														<p><small>You can use the grid classes to build a grid based layout for form elements. like here we have used the sizing (*col-xs-*). Usage: <code>col-lg-*, col-md-*, col-sm-* or col-xs-*</code></small>
+													</form>											
+												</div>
+											</div>
+										</div>
+										<div class="portlet">
+											<div class="portlet-heading dark">
+												<div class="portlet-title">
+													<h4>Fixed Sizing</h4>
+												</div>
+												<div class="portlet-widgets">
+													<a data-toggle="collapse" data-parent="#accordion" href="#f-12"><i class="fa fa-chevron-down"></i></a>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div id="f-12" class="panel-collapse collapse in">
+												<div class="portlet-body">
+													<form role="form">
+														<div class="row">
+															<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+																<div class="space-4 hidden-lg hidden-md"></div><!--This id just for demo-->
+																<input type="text" class="form-control input-small" placeholder=".input-small">
+															</div>
+															<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+																<div class="space-4 hidden-lg hidden-md"></div><!--This id just for demo-->
+																<input type="text" class="form-control input-medium" placeholder=".input-medium">
+															</div>
+														</div>
+														
+														<div class="space-4"></div>
+														<input type="text" class="form-control input-large" placeholder=".input-large">
+														
+														<div class="space-4"></div>
+														<input type="text" class="form-control input-xlarge" placeholder=".input-xlarge">
+														
+														<div class="space-4"></div>
+														<input type="text" class="form-control input-xxlarge" placeholder=".input-xxlarge">															
+													</form>											
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+				
+				
+				<!--page content-->
+				
+			</div>
+		</div>
+		
+
+		
+		<div class="block-s1 bg-primary">
+			<div class="container hidden-xs">
+				<div class="pull-left">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+				</div>
+				<div class="pull-right">
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="container visible-xs">
+				<div class="text-center">
+					<h3>Considering a hosting solution for your enterprise?</h3>
+					<p><a href="" class="btn btn-inverse"><i class="fa fa-comments"></i>Chat Live with Expert now</a></p>					
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="block-s3 light">
+			<div class="container">
+				<div class="space-12"></div>
+				<div class="owl-carousel partners-slider">
+					<!-- Wrapper for partners slides -->  
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_1.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_2.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_3.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_4.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_5.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_6.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_7.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_8.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<div class="owl-item">
+						<img src="assets/images/gallery/client_9.png" alt="Owl Image" class="center-block img-responsive">
+					</div>
+					<!-- /Wrapper for slides -->
+				</div>
+			</div>
+		</div>
+		
+
+
+		
+		<div class="block-breadcrumbs">
+			<div class="container">
+				<ol class="breadcrumb">
+					<li class="active"><i class="fa fa-map-marker"></i></li>
+					<li><a href="index.html">Home</a></li>
+				</ol>
+			
+			</div>
+		</div>
+
+				
+		<!--Footer-->
+		<div class="block-footer">
+			<div class="container">
+				<div class="row hidden-xs hidden-sm">
+					<div class="col-md-2 col-sm-6">
+						<h4>Company</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Partners</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Blog</a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-2 col-sm-6">
+						<h4>Help & Support</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Get Support</a></li>
+						</ul>
+						
+						
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Knowladgebase</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i> Network Status</a></li>
+						</ul>
+						
+					</div>
+					<div class="col-md-6">
+						<h4>About Us</h4>
+						<div class="well">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting dustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...<a href="#">Read More..</a></p>
+						</div>
+
+						<ul class="list-inline">
+							<li><i class="fa fa-phone"></i> (123) 456-7890</li>
+							<li><i class="fa fa-envelope"></i> Sale.dtp@example.com</li>
+						</ul>
+						
+						<a href="" class="btn btn-success">Live Chat</a>
+						
+					</div>
+					<div class="col-md-2 social">
+						<h4>Follow Us</h4>
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+						
+					</div>
+				</div>
+
+
+				<div class="row visible-xs visible-sm">
+					<div class="col-sm-12 social text-center">
+						<ul class="list-inline">
+							<li><a href="#" class="btn btn-circle btn-facebook btn-xs"><i class="fa fa-facebook icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-googleplus btn-xs"><i class="fa fa-google-plus icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-twitter btn-xs"><i class="fa fa-twitter icon-only"></i></a></li>
+							<li><a href="#" class="btn btn-circle btn-linkedin btn-xs"><i class="fa fa-linkedin icon-only"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<div class="additional-info hidden-xs hidden-sm">
+					<hr class="separator"/>
+				
+					<div class="row">
+						<div class="col-sm-6">
+							<ul class="list-inline">
+								<li><a href="#"><img src="assets/images/awards/award-img1.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img2.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img3.png"></a></li>
+								<li><a href="#"><img src="assets/images/awards/award-img4.png"></a></li>
+							</ul>
+						</div>
+						
+						<div class="col-sm-6">
+							<ul class="list-inline pull-right">
+								<li><i class="fa fa-cc-mastercard fa-3x"></i></li>
+								<li><i class="fa fa-cc-visa fa-3x"></i></li>
+								<li><i class="fa fa-cc-amex fa-3x"></i></li>
+								<li><i class="fa fa-cc-discover fa-3x"></i></li>
+								<li><i class="fa fa-cc-paypal fa-3x"></i></li>
+								<li><i class="fa fa-google-wallet fa-3x"></i></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+
+				
+				<div class="row copyright">
+					<div class="col-md-6 col-xs-12">
+						<p>2014 © WebHoster, All rights reserved.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<ul class="list-inline">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">SLA Aggrement</a></li>
+						</ul>						
+					</div>
+				</div>
+				
+				<div class="block-s2">
+					<div class="text-center small">
+						<i>Designed by <a href="http://thememetro.com" class="text-muted">ThemeMetro.com</a></i>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<a id="back-to-top" href="#" class="btn btn-primary btn-sm back-to-top" role="button"><i class="fa fa-angle-double-up icon-only bigger-110"></i></a>
+		<!--End Footer-->
+		
+	</div><!-- /page container -->
+    
+	
+    <!-- core JavaScript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	
+	<!-- PAGE LEVEL PLUGINS JS -->
+	<script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/js/plugins/pace/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script><!-- slider for products -->
+	
+    <!-- Themes Core Scripts -->	
+	<script src="assets/js/main.js"></script>
+	
+
+	<!-- initial page level scripts for examples -->	
+	<script type="text/javascript">
+
+		// init variables require for all front pages
+			Apps.initNavTopBar2();
+		// end
+		
+		$(function () {
+			$('#langScroll, #taskScroll').slimScroll({
+				height: '190px',
+				disableFadeOut: true,
+				touchScrollStep: 50
+			});
+		});	
+		
+		$(".partners-slider").owlCarousel({ 
+			autoplay:true,
+			autoplayTimeout: 3000, //Set AutoPlay to 3 seconds
+			rtl: true,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:2,
+					nav:false
+				},
+				767:{
+					items:5,
+					nav:false
+				},
+				1000:{
+					items:7,
+					nav:false
+				}
+			}
+		});
+		
+	</script>
+</body>
+
+</html>
