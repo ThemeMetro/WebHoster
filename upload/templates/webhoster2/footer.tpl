@@ -206,7 +206,7 @@
 				<!-- We would requet you to keep this link. You can use your unique affiliate link to earn money by referring visitors -->
 				<div class="block-s2">
 					<div class="text-center small">
-						<i>Designed by <a href="http://ThemeMetro.com" class="text-muted">ThemeMetro.com</a></i>
+						<i>Designed by <a href="https://thememetro.com" class="text-muted">ThemeMetro.com</a></i>
 					</div>
 				</div>
 				<!-- //Back link Section -->
